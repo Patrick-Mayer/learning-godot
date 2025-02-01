@@ -2,15 +2,15 @@
 
 [node name="TestScene" type="Node2D"]
 
-[node name="Node2D" type="Node2D" parent="."]
-modulate = Color(0.974376, 0.126632, 0.231904, 1)
-position = Vector2(-462, -252)
-scale = Vector2(5, 5)
+[node name="Node2D2" type="Node2D" parent="."]
+position = Vector2(90, -58)
+scale = Vector2(5.25937, 8.13875)
 
-[node name="ColorRect" type="ColorRect" parent="Node2D"]
+[node name="ColorRect" type="ColorRect" parent="Node2D2"]
+offset_top = 0.368607
 offset_right = 40.0
-offset_bottom = 40.0
+offset_bottom = 40.3686
 scale = Vector2(1.88, 1)
-color = Color(0.977523, 0, 0.190053, 1)
+color = Color(0.857898, 0.131361, 0.787288, 1)
 
 [node name="Camera2D" type="Camera2D" parent="."]
