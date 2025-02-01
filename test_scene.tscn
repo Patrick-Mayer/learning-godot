@@ -13,4 +13,16 @@ offset_bottom = 40.3686
 scale = Vector2(1.88, 1)
 color = Color(0.857898, 0.131361, 0.787288, 1)
 
+[node name="Node2D3" type="Node2D" parent="."]
+position = Vector2(563.343, -530.047)
+scale = Vector2(27.661, 66.2393)
+
+[node name="ColorRect" type="ColorRect" parent="Node2D3"]
+offset_left = -44.4794
+offset_top = 2.25014
+offset_right = -4.47939
+offset_bottom = 42.2501
+scale = Vector2(0.685137, 0.120469)
+color = Color(0.384826, 0.470566, 0.978589, 1)
+
 [node name="Camera2D" type="Camera2D" parent="."]
